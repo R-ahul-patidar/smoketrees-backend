@@ -1,0 +1,35 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SmokeTrees Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Register</h1>
+      <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street" required />
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required />
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required />
+
+        <label for="zip">ZIP Code:</label>
+        <input type="text" id="zip" name="zip" required />
+
+        <button type="submit">Submit</button>
+      </form>
+      <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
